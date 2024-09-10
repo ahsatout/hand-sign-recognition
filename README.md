@@ -3,8 +3,8 @@
 
 This project implements a machine learning model for recognizing hand signs using  webcam. The project is divided into four main scripts:
 
-1. **Capture Hand Pictures**: A script to capture images of hand signs using a webcam.
-2. **Feature Extraction**: A script to loop through captured images, extract relevant features, and save them for training.
+1. **Capture Hand Pictures**: A script to capture images of hand signs using a webcam using OpenCV
+2. **Feature Extraction**: A script to loop through captured images, extract relevant features (using MediaPipe), and save them for training.
 3. **Model Training**: A script to train a RandomForest algorithm on the extracted features and save the trained model.
 4. **Real-Time Detection**: A script to open the webcam and detect hand signs in real-time using the trained model.
 
